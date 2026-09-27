@@ -1,7 +1,10 @@
-#include <vector>
 #include <iostream>
 
+int add(int a, int b) {
+    return a + b;
+}
+
 int main() {
-    std::vector<int> v = {1, 2, 3};
-    for(int x : v) std::cout << x;
+    std::cout << add(5, 3);
+    return 0;
 }
